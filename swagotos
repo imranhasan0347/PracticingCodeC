@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main ()
+{
+    double a,c;
+    char b;
+    scanf('%lf', &a);
+    scanf ('%c', &b);
+    scanf('%lf', &c);
+    if(b==+){
+        printf("= %lf", a+c);
+    }
+    return 0;
+}
